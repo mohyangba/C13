@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
   scanf("%d %d", &p2.x, &p2.y);
   
   //calculate the distance of p1 and p2
-  xdiff = p2.x - p2.x;
-  ydiff = p2.y - p2.y;
+  xdiff = p2.x - p1.x;
+  ydiff = p2.y - p1.y;
   
   dist = sqrt(xdiff*xdiff + ydiff*ydiff);
   
